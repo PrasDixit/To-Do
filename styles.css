@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(
+    to right bottom,
+    #1b1b21,
+    #1d1d26,
+    #1e202a,
+    #1f222f,
+    #202534,
+    #1d2534,
+    #1b2633,
+    #192632,
+    #15242b,
+    #142125,
+    #141d1f,
+    #151a1a
+  );
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 500px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #feba26;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.todos li {
+  background: #ffffff;
+  margin-top: 5px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
